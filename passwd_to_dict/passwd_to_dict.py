@@ -1,4 +1,4 @@
-"""
+'''
 Question :
 寫一個函式 passwd_to_dict(), 讀取 /etc/passwd(passwd.cfg).
 函式會讀取所有使用者的帳號名稱和其ID, 並將之包成dict形式傳回
@@ -16,7 +16,8 @@ jdoe:*:202:1:John Doe:/home/jdoe:/usr/bin/ksh
 - User home directory
 - Login shell
 
-"""
+'''
+
 import pprint
 
 passwd_p = r"C:\Users\lsro1006\Desktop\python_prep\passwd_to_dict\passwd.cfg"

@@ -1,11 +1,12 @@
-# Question :
-# 寫一個函式 read_final_line(), 傳入文字檔的路徑與檔名,
-# 然後傳回該檔案中的最後一行文字
-#
-# 1. 用 readlines 寫
-# 2. 用 readline 寫
-# 3. 用 with.. open.. 寫
+'''
+ Question :
+ 寫一個函式 read_final_line(), 傳入文字檔的路徑與檔名,
+ 然後傳回該檔案中的最後一行文字
 
+ 1. 用 readlines 寫
+ 2. 用 readline 寫
+ 3. 用 with.. open.. 寫
+'''
 
 file_p = r'C:\Users\lsro1006\Desktop\python_prep\read_final_line\logs.log'
 
