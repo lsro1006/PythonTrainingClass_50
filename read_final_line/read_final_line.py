@@ -7,8 +7,10 @@
  2. 用 readline 寫
  3. 用 with.. open.. 寫
 '''
+import os
 
-file_p = r'C:\Users\lsro1006\Desktop\python_prep\read_final_line\logs.log'
+current_p = os.getcwd()
+file_p = os.path.join(current_p, 'logs.log')
 
 # readlines
 def read_final_line_readlines(filename) :

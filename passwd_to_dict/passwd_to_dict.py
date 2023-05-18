@@ -17,10 +17,11 @@ jdoe:*:202:1:John Doe:/home/jdoe:/usr/bin/ksh
 - Login shell
 
 '''
-
+import os
 import pprint
 
-passwd_p = r"C:\Users\lsro1006\Desktop\python_prep\passwd_to_dict\passwd.cfg"
+current_p = os.getcwd()
+passwd_p = os.path.join(current_p, 'passwd.cfg')
 
 def passwd_to_dict(filename):
 

@@ -7,9 +7,10 @@
 
 在此假設內文只用英文和數字組成。
 '''
+import os
 
-
-file_p = r"C:\Users\lsro1006\Desktop\python_prep\wordcount\test.txt"
+current_p = os.getcwd()
+file_p = os.path.join(current_p, 'test.txt')
 
 results = {
     'chars' : 0,
