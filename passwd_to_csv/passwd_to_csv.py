@@ -11,4 +11,23 @@
 用觀念 1 and 2 寫出本題。
 
 '''
+import os
+import csv
+
+current_p = os.getcwd()
+file_p = os.path.join(current_p, 'passwd.cfg')
+
+def passwd_to_csv(filename):
+
+    with open(filename, 'r') as f_read:
+
+
+        csv_reader = csv.reader(f_read, delimiter=':')
+        #csv_writer = csv.writer(f_write, delimiter='\t', lineterminator='\n')
+
+        for line in csv_reader:
+            print(line)
+
+passwd_to_csv(file_p)
+        
 
