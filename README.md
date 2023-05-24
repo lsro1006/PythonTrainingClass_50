@@ -12,5 +12,6 @@
 2. passwd_to_dict
 3. wordcount
 4. find_longest_word
+5. passwd_to_csv
 
 [Chap 6]
