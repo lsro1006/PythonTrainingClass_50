@@ -1,10 +1,11 @@
 '''
-練習 23
+練習 24
 
-寫一個函式, print_scores_json(), 會讀取 JSON 格式的成績檔,　
-統計各科的最高分, 最低分 和 平均並印出
+寫一個函式, print_dir_scores_json(), 傳入一個資料夾路徑,　
+它會尋找該資料夾中所有的 .json 檔, 並呼叫練習 23 的 print_scores_json()
+來統計各班的各科成績
 
-能輸出以下的統計結果:
+json 檔內容如下, 有 9a, 9b and 9c班
 
 班級: 9a
 科目: math
@@ -21,9 +22,9 @@
   平均: 86.4 
 
 心得 :
-1.
-2.
-3.
+1. 用 listdir 來寫 (import os) -> 注意 : 此方法只會篩選出檔名, 不會含路徑
+2. 用 pathlib.Path 來寫 (import pathlib) -> 注意 : 此方法會形成一個物件
+3. 用 glob 來寫 (import glob)
 
 '''
 import glob
