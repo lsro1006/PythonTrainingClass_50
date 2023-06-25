@@ -33,6 +33,7 @@ file_p = os.path.join(current_p, 'text2.txt')
 
 def pig_latin(word) :
 
+    # Both list and string work
     #vowels = ['a', 'e', 'i', 'o', 'u']
     vowels = 'aeiou'
 
